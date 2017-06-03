@@ -1,10 +1,3 @@
 # UIKit元件練習 
+![image](ScrollView.gif)![image](CollectionView.gif)![image](動物排列.gif)
 --------------------------
-ScrollView
-![image](ScrollView.gif)
---------------------------
-CollectionView
-![image](CollectionView.gif)
---------------------------
-Animation-動物排列
-![image](動物排列.gif)
