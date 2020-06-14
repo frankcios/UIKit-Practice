@@ -18,6 +18,7 @@
 		01DCEA1E1EE010CB00CBCEC6 /* 03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01DCEA191EE010CB00CBCEC6 /* 03.jpg */; };
 		01DCEA1F1EE010CB00CBCEC6 /* 04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01DCEA1A1EE010CB00CBCEC6 /* 04.jpg */; };
 		01DCEA201EE010CB00CBCEC6 /* 05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01DCEA1B1EE010CB00CBCEC6 /* 05.jpg */; };
+		DD852A3024966DAC003DB43B /* InfiniteScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD852A2F24966DAC003DB43B /* InfiniteScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		01DCEA191EE010CB00CBCEC6 /* 03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03.jpg; sourceTree = "<group>"; };
 		01DCEA1A1EE010CB00CBCEC6 /* 04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 04.jpg; sourceTree = "<group>"; };
 		01DCEA1B1EE010CB00CBCEC6 /* 05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 05.jpg; sourceTree = "<group>"; };
+		DD852A2E24966DAC003DB43B /* InfiniteScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfiniteScrollView.h; sourceTree = "<group>"; };
+		DD852A2F24966DAC003DB43B /* InfiniteScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfiniteScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 				01DCEA031EE00FF300CBCEC6 /* AppDelegate.m */,
 				01DCEA051EE00FF300CBCEC6 /* ViewController.h */,
 				01DCEA061EE00FF300CBCEC6 /* ViewController.m */,
+				DD852A2E24966DAC003DB43B /* InfiniteScrollView.h */,
+				DD852A2F24966DAC003DB43B /* InfiniteScrollView.m */,
 				01DCEA081EE00FF300CBCEC6 /* Main.storyboard */,
 				01DCEA0B1EE00FF300CBCEC6 /* Assets.xcassets */,
 				01DCEA0D1EE00FF400CBCEC6 /* LaunchScreen.storyboard */,
@@ -143,6 +148,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -182,6 +188,7 @@
 				01DCEA071EE00FF300CBCEC6 /* ViewController.m in Sources */,
 				01DCEA041EE00FF300CBCEC6 /* AppDelegate.m in Sources */,
 				01DCEA011EE00FF300CBCEC6 /* main.m in Sources */,
+				DD852A3024966DAC003DB43B /* InfiniteScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +347,7 @@
 				01DCEA151EE00FF400CBCEC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
